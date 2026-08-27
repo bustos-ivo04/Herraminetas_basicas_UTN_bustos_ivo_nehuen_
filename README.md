@@ -30,5 +30,7 @@ Encontrar los factores determinantes para poder subir al Monte Everest.
 - Python
 - Pandas
 - Matplotlib
-34
 - Seaborn
+
+## Observación
+Los dashboards de Power BI no fueron cargados en tiempo y forma. El resto del trabajo fue realizado según los requisitos de entrega.
