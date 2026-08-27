@@ -1,0 +1,26 @@
+column,type,description
+climber_id,string,ID único de cada intento de ascenso
+year,int,Año del intento
+season,string,Temporada de la expedición
+route,string,Ruta utilizada para el ascenso
+age,int,Edad del montañista
+sex,string,Sexo del montañista
+is_hired_staff,int,Personal de alta montaña contratado (1=Sí)
+years_climbing,int,Años de experiencia en montañismo
+prior_8000m_peaks,int,Cantidad de cumbres de más de 8000 m logradas previamente
+prior_everest_attempts,int,Número de intentos previos al Everest
+highest_prev_altitude_m,int,Mayor altitud alcanzada antes del intento (m)
+operator_tier,string,Categoría del operador de la expedición
+team_size,int,Cantidad de integrantes del equipo
+sherpa_ratio,float,Cantidad de personal de apoyo por cliente
+uses_oxygen,int,Uso de oxígeno suplementario (1=Sí)
+o2_start_altitude_m,int,Altitud de inicio del uso de oxígeno (m)
+days_acclimatizing,int,Días de aclimatación antes del ascenso final
+camps_established,int,Cantidad de campamentos establecidos
+summit_window_days,int,Días disponibles para intentar la cumbre
+weather_score,float,Calidad de las condiciones climáticas (0-10)
+jetstream_risk,float,Riesgo asociado a la corriente en chorro (0-10)
+queue_minutes_above_8000,int,Minutos de espera por encima de 8000 m
+turnaround_reason,string,Motivo de abandono o cumbre alcanzada
+serious_incident,int,Incidente grave durante la expedición (1=Sí)
+summited,int,Objetivo: alcanzó la cumbre (1=Sí)

@@ -1,0 +1,26 @@
+column,type,description
+climber_id,string,Unique climber-attempt id
+year,int,Year of the attempt (1990-2026)
+season,string,spring / autumn / winter / summer (~86% spring)
+route,string,South Col-SE Ridge (Nepal) / North Ridge-NE (Tibet) / other
+age,int,Climber age
+sex,string,M / F
+is_hired_staff,int,1 if hired high-altitude worker (e.g. Sherpa staff)
+years_climbing,int,Years of climbing experience
+prior_8000m_peaks,int,Number of 8000m peaks previously summited — the strongest predictor
+prior_everest_attempts,int,Previous Everest attempts
+highest_prev_altitude_m,int,Highest altitude previously reached (m)
+operator_tier,string,budget / mid / premium / independent
+team_size,int,Number of climbers in the team
+sherpa_ratio,float,Hired high-altitude support per client (0-3)
+uses_oxygen,int,1 if using supplemental oxygen
+o2_start_altitude_m,int,Altitude where supplemental O2 begins (0 if none)
+days_acclimatizing,int,Days spent acclimatizing before the summit push
+camps_established,int,Number of camps established
+summit_window_days,int,Length of the usable summit weather window (days)
+weather_score,float,"Weather quality during the push (0-10, higher = better)"
+jetstream_risk,float,Jet-stream disruption risk (0-10)
+queue_minutes_above_8000,int,Minutes queuing in the death zone (a post-2012 phenomenon)
+turnaround_reason,string,"Why they turned back (weather_window_closed, death_zone_crowding, oxygen_exhaustion, exhaustion_altitude_sickness, frostbite, team_decision, illness, other) or summited"
+serious_incident,int,1 if a serious incident occurred (frostbite/injury class) — rare (~2%)
+summited,int,TARGET: 1 if the climber reached the summit
